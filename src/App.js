@@ -6,7 +6,7 @@ function App() {
 
   return (
 		<>
-		
+
 			{/* More popular version but without animation */}
 			{/* <div className='app'>
 				<button onClick={() => setOpen(true)} className='open-modal-btn'>✨ Open window</button>
@@ -38,6 +38,7 @@ function App() {
 					</div>
 				)}
 			</div>
+			
 		</>
   );
 }
