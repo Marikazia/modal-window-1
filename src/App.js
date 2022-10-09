@@ -5,7 +5,6 @@ function App() {
 	const [open, setOpen] = React.useState(false);
 
 
-
   return (
 		<>
 			{/* More popular version but without animation */}
