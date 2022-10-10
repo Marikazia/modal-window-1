@@ -25,6 +25,7 @@ function App() {
 			</div> */}
 
 			{/* Animated version */}
+			
 			<div className='app'>
 				<button onClick={() => setOpen(true)} className='open-modal-btn'>✨ Open window</button>
 				{open && (
