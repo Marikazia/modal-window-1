@@ -21,7 +21,13 @@ function App() {
 
   return (
 		<>
-
+			<div className='app'>
+				<button onClick={() => setOpen(true)} className='open-modal-btn'>✨ Open window</button>
+				{/* Without animation */}
+				{/* {open && <Modal open={open} setOpen={setOpen} />}  */}
+				{/* With animation */}
+				<Modal open={open} setOpen={setOpen} />	
+			</div>
 		</>
   );
 }
